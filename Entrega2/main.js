@@ -10,7 +10,6 @@ function solicitarNombre() {
     }
     return nombre;
 }
-
 function solicitarOpcionTurno() {
     let opcionTurno = prompt("Seleccione una opción de turno:\n1. Consulta general\n2. Consulta especialista\n3. Consulta profesional");
     while (opcionTurno !== "1" && opcionTurno !== "2" && opcionTurno !== "3") {
