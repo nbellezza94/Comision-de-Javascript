@@ -1,0 +1,73 @@
+{
+  "services": [
+    {
+      "name": "Consulta general",
+      "description": "Consulta médica de rutina",
+      "duration": 30
+    },
+    {
+      "name": "Consulta especialista",
+      "description": "Consulta médica con un especialista",
+      "duration": 45
+    },
+    {
+      "name": "Consulta random",
+      "description": "Consulta médica con un especialista al azar",
+      "duration": 60
+    }
+  ],
+
+
+  "availability": {
+    "Lunes": {
+      "start_time": "09:00",
+      "end_time": "19:00",
+      "capacity": 5
+    },
+    "Martes": {
+      "start_time": "09:00",
+      "end_time": "19:00",
+      "capacity": 5
+    },
+    "Miercoles": {
+      "start_time": "09:00",
+      "end_time": "19:00",
+      "capacity": 5
+    },
+    "Jueves": {
+      "start_time": "09:00",
+      "end_time": "19:00",
+      "capacity": 5
+    },
+    "Viernes": {
+      "start_time": "09:00",
+      "end_time": "19:00",
+      "capacity": 5
+    },
+
+    
+    "available_hours": [
+      "09:00",
+      "09:30",
+      "10:00",
+      "10:30",
+      "11:00",
+      "11:30",
+      "12:00",
+      "12:30",
+      "13:00",
+      "13:30",
+      "14:00",
+      "14:30",
+      "15:00",
+      "15:30",
+      "16:00",
+      "16:30",
+      "17:00",
+      "17:30",
+      "18:00",
+      "18:30",
+      "19:00"
+    ]
+  }
+}

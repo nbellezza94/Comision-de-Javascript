@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turnos</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="container">
+    <h1>Solicitud de Turnos</h1>
+    <form id="formularioTurno">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" required>
+      <br><br>
+      <label for="opcionTurno">Tipo de Turno:</label>
+      <select id="opcionTurno" required></select>
+      <br><br>
+      <label for="horaTurno">Hora del Turno:</label>
+      <select id="horaTurno" required></select>
+      <br><br>
+      <label for="diaTurno">Día del Turno:</label>
+      <select id="diaTurno" required></select>
+      <br><br>
+      <input type="submit" value="Solicitar Turno">
+    </form>
+    <div id="turnosSolicitados">
+      <h2>Turnos Solicitados</h2>
+      <ul id="listaTurnos"></ul>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+</html>
