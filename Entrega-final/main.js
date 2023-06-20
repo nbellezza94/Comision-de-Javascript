@@ -55,6 +55,7 @@ function coordinarTurno(event) {
     mostrarTurnosSolicitados();
 }
 
+
 function cargarContenidoJson() {
     fetch("contenido.json")
         .then(response => response.json())
@@ -79,14 +80,14 @@ function cargarServicios(servicios) {
 
 function cargarOpcionesDias(availability) {
     for (let day in availability) {
-        if (availability.hasOwnProperty(day)) {
-            let option = document.createElement("option");
-            option.value = day;
-            option.textContent = day;
-            selectDiaTurno.appendChild(option);
-        }
+      if (availability.hasOwnProperty(day) && day !== "available_hours") {
+        let option = document.createElement("option");
+        option.value = day;
+        option.textContent = day;
+        selectDiaTurno.appendChild(option);
+      }
     }
-}
+  }
 
 function cargarOpcionesHoras(horasDisponibles) {
     horasDisponibles.forEach(hora => {

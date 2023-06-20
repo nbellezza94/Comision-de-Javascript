@@ -16,8 +16,6 @@
       "duration": 60
     }
   ],
-
-
   "availability": {
     "Lunes": {
       "start_time": "09:00",
@@ -44,8 +42,6 @@
       "end_time": "19:00",
       "capacity": 5
     },
-
-    
     "available_hours": [
       "09:00",
       "09:30",
